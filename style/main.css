@@ -1,0 +1,163 @@
+
+:root{
+    --vermelho: #E50914;
+    --preta: #141414; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;   
+}
+
+
+body{
+    background: var(--preta);
+    font-family: 'Arial', Times, serif; 
+    color: white;
+}
+
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header .container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+ 
+header nav a:hover{
+    color:#fff
+}
+
+ 
+.filme-principal {
+    font-size: 16px;  
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.10)90%), url('/img/mini0.jpg');
+    height:550px;
+    color:black;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;    
+}
+
+.filme-principal .descricao {
+    margin-bottom:1.5rem; 
+    margin-top:20px;
+    padding-bottom: 5px;
+    
+}
+
+.filme-principal .titulo {
+    margin-top: 15px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    
+
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 50px;
+    font-size: 12px;
+  
+
+    cursor:pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color:white;
+    color:black
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width:70%;
+}
+
+.carrosel-series {
+    cursor:pointer;
+    transition: .3s ease all;
+    margin-top: 0.2rem;
+}
+
+.series {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor:pointer;
+    transition: .3s ease all;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.carrosel-filmes {
+    cursor:pointer;
+    transition: .3s ease all;
+    margin-top: 1.0rem;
+    
+}
+
+.filmes {
+    margin-left: 10px;
+    cursor:pointer;
+    transition: .3s ease all;
+    font-size: 20px;
+}
+
+.carrosel-animes {
+    cursor:pointer;
+    transition: .3s ease all;
+    margin-top: 1.0rem;
+    
+}
+
+.animes {
+    margin-left: 10px;
+    cursor:pointer;
+    transition: .3s ease all;
+    font-size: 20px;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: center;
+}
+
+
