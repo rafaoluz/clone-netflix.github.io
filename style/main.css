@@ -40,13 +40,10 @@ header nav a{
     color: #AAA;
     margin-right: 10px;
 }
-
- 
 header nav a:hover{
     color:#fff
 }
 
- 
 .filme-principal {
     font-size: 16px;  
     background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.10)90%), url('/img/mini0.jpg');
@@ -63,6 +60,8 @@ header nav a:hover{
     margin-bottom:1.5rem; 
     margin-top:20px;
     padding-bottom: 5px;
+    letter-spacing: 0.9;
+    line-height: 1.2;
     
 }
 
@@ -70,15 +69,14 @@ header nav a:hover{
     margin-top: 15px;
     font-size: 40px;
     font-family:'Trebuchet MS', Arial, sans-serif;
-    
-
 }
-
+.filme-principal .titulo span {
+    color: red;
+}
 .botao {
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
-
     padding: 15px 30px;
     margin-right: 15px;
     margin-top: 50px;
